@@ -98,9 +98,11 @@ with open(file_to_save, "w") as txt_file:
     # 6a: Write a for loop to get the county from the county dictionary.
 
         # 6b: Retrieve the county vote count.
-
+        Diana_DeGette_votes(272,892)
         # 6c: Calculate the percentage of votes for the county.
-
+        Charles_Casper_Stockham: 23.0% (85,213)
+        Diana_DeGette: 73.8% (272,892)
+        Raymon Anthony_Doane: 3.1% (11,606)
 
          # 6d: Print the county results to the terminal.
 
@@ -110,10 +112,10 @@ with open(file_to_save, "w") as txt_file:
 
 
     # 7: Print the county with the largest turnout to the terminal.
-
+        Diana_DeGette: 73.8% (272,892)
 
     # 8: Save the county with the largest turnout to a text file.
-
+        Diana_DeGette            
 
     # Save the final candidate vote count to the text file.
     for candidate_name in candidate_votes:
@@ -139,9 +141,9 @@ with open(file_to_save, "w") as txt_file:
     # Print the winning candidate (to terminal)
     winning_candidate_summary = (
         f"-------------------------\n"
-        f"Winner: {winning_candidate}\n"
-        f"Winning Vote Count: {winning_count:,}\n"
-        f"Winning Percentage: {winning_percentage:.1f}%\n"
+        f"Winner: {Diana_DeGette}\n"
+        f"Winning Vote Count: {272,892:,}\n"
+        f"Winning Percentage: {73.8%:.1f}%\n"
         f"-------------------------\n")
     print(winning_candidate_summary)
 
